@@ -23,7 +23,7 @@ body {
 header {
   height: 525px;
   background-image: url("../images/header_bg.jpg");
-  background-size: 900px ;
+  background-size: 960px ;
   color:#ffffff;
   font-family: 'Open Sans', sans-serif;
 }
@@ -86,7 +86,7 @@ p, ul {
 }
 
 .benefits-text {
-  width: 450px;
+  width: 425px;
   font-weight: 100;
   line-height: 25px;
   font-size: 18px;
@@ -113,6 +113,8 @@ p.pull-quote {
   text-align: center;
   padding: 50px 0px 0px 100px;
   width: 550px;
+  margin-left: 100px;
+  line-height: 35px;
 }
 
 p.attribution {
@@ -122,6 +124,7 @@ p.attribution {
   text-align: center;
   padding: 0px 0px 0px 100px;
   width: 550px;
+    margin-left: 100px;
 }
 
 /*SIGN-UP*/
@@ -201,6 +204,26 @@ footer {
   font-family: Open Sans, sans-serif;
   overflow: hidden;
 }
+
+a:link {
+    color: inherit;
+}
+
+/* visited link */
+a:visited {
+    color: inherit;
+}
+
+/* mouse over link */
+a:hover {
+    color: inherit;
+}
+
+/* selected link */
+a:active {
+    color: inherit;
+}
+
 
 .logo {
   float:left;
